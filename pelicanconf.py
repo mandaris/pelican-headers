@@ -38,12 +38,13 @@ RELATIVE_URLS = True
 
 
 # Markdown Plugins
+# Markdown Plugins
 MARKDOWN = {
     'extension_configs': {
         'markdown.extensions.codehilite': {'css_class': 'highlight'},
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
-        'downheader': {'levels': '2'},
+        'downheader': {},
     },
     'output_format': 'html5',
 }
