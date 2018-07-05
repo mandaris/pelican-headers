@@ -6,33 +6,32 @@ The default for calling the extension makes all the headers add one to the `<h1>
 ## Default settings
 
 ```python
- +MARKDOWN = {
- +    'extension_configs': {
- +        'markdown.extensions.codehilite': {'css_class': 'highlight'},
- +        'markdown.extensions.extra': {},
- +        'markdown.extensions.meta': {},
- +        'downheader': {},
- +    },
- +    'output_format': 'html5',
- +}
- +```
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'downheader': {},
+    },
+    'output_format': 'html5',
+}
+
+```
 
 
 
- ## Defining different values
+## Defining different values
 
- ```python
- +# Markdown Plugins
- +MARKDOWN = {
- +    'extension_configs': {
- +        'markdown.extensions.codehilite': {'css_class': 'highlight'},
- +        'markdown.extensions.extra': {},
- +        'markdown.extensions.meta': {},
- +        'downheader': {'levels': '2'},
- +    },
- +    'output_format': 'html5',
- +}
- +```
+```python
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'downheader': {'levels': '2'},
+    },
+    'output_format': 'html5',
+}
+```
 
 
- 
