@@ -38,7 +38,6 @@ RELATIVE_URLS = True
 
 
 # Markdown Plugins
-# Markdown Plugins
 MARKDOWN = {
     'extension_configs': {
         'markdown.extensions.codehilite': {'css_class': 'highlight'},
